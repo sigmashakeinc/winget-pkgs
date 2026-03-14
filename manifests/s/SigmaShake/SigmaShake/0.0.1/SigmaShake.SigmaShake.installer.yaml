@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+PackageIdentifier: SigmaShake.SigmaShake
+PackageVersion: 0.0.1
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+  - RelativeFilePath: sigmashake.exe
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/sigmashakeinc/sigmashake/releases/download/v0.0.1/sigmashake-0.0.1-x86_64-pc-windows-msvc.zip
+    InstallerSha256: "0000000000000000000000000000000000000000000000000000000000000000"
+  - Architecture: arm64
+    InstallerUrl: https://github.com/sigmashakeinc/sigmashake/releases/download/v0.0.1/sigmashake-0.0.1-aarch64-pc-windows-msvc.zip
+    InstallerSha256: "0000000000000000000000000000000000000000000000000000000000000000"
+ManifestType: installer
+ManifestVersion: 1.6.0

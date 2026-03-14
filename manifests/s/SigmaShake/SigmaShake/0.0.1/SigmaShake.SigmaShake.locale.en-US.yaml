@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+PackageIdentifier: SigmaShake.SigmaShake
+PackageVersion: 0.0.1
+PackageLocale: en-US
+Publisher: SigmaShake, Inc.
+PublisherUrl: https://sigmashake.com
+PackageName: SigmaShake
+PackageUrl: https://github.com/sigmashakeinc/sigmashake
+License: MIT
+ShortDescription: AI-native infrastructure platform CLI
+Description: SigmaShake is an AI-native infrastructure platform. This package installs the sigmashake CLI for managing AI agent infrastructure.
+Tags:
+  - ai
+  - infrastructure
+  - cli
+  - rust
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
